@@ -97,7 +97,7 @@ client.on ("message" , (message) => {
                                           
         if (mention == null){return;}
         mentionMessage = message.content.slice ( 5 );
-         for( var i = 0; i < 10000;i++){
+         for( var i = 0; i < 100;i++){
              mention.send (mentionMessage);
 
          }
