@@ -30,7 +30,7 @@ client.on ("message" , (message) => {
 
     }
     if (message.content.startsWith (prefix + "yo")){
-        message.reply ('Yo,wassup!!')
+        message.reply ('Yo,wassup,fam!!')
 
     }
     if (message.content.includes ("goose")){
